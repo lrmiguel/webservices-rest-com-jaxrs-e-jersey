@@ -11,6 +11,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import com.google.gson.Gson;
 import com.thoughtworks.xstream.XStream;
 
+@XmlRootElement
 public class Carrinho {
 
 	private List<Produto> produtos = new ArrayList<Produto>();
